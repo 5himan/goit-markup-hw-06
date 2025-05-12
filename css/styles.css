@@ -179,7 +179,7 @@
   
   background-color: #2e2f42;
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-          url(../images/Dark-bghero_back.jpg);
+           url(../images/dark-bghero-mob@1x.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -192,7 +192,7 @@
   (min-resolution: 2dppx) {
       .hero-section {
           background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-              url(../images/Dark-bghero_back@2x.jpg);
+              url(../images/dark-bghero-mob@2x.jpg);
       }
   }
   
@@ -1037,7 +1037,7 @@ letter-spacing: 0.04em;
   .hero-section {
     padding: 112px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/Dark-bg.jpg);
+    url(../images/dark-bghero-tab@1x.jpg);
   }
   
   @media screen and (min-device-pixel-ratio: 2),
@@ -1045,8 +1045,7 @@ letter-spacing: 0.04em;
   (min-resolution: 2dppx) {
       .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/Dark-bghero_back.jpg
-            );
+            url(../images/dark-bghero-tab@2x.jpg);
       }
   }
   
@@ -1316,7 +1315,7 @@ letter-spacing: 0.04em;
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/dark-bghero-desktop@1x.jpg);
 }
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -1324,7 +1323,7 @@ letter-spacing: 0.04em;
     (min-resolution: 2dppx) {
     .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/people-office.jpg);
+            url(../images/dark-bghero-desktop@2x.jpg);
             padding-top: 188px;
             padding-bottom: 188px;
         }
