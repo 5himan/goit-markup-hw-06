@@ -1045,7 +1045,8 @@ letter-spacing: 0.04em;
   (min-resolution: 2dppx) {
       .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/Dark-bghero_back@2x.jpg);
+            url(../images/Dark-bghero_back.jpg
+            );
       }
   }
   
